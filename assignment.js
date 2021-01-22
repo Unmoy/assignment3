@@ -18,8 +18,8 @@ function budgetCalculator(watch, mobile, laptop) {
   var watchPrice = watch * 50;
   var mobilePrice = mobile * 100;
   var laptopPrice = laptop * 500;
-  var result = watchPrice + mobilePrice + laptopPrice;
-  return result;
+  var totalExpense = watchPrice + mobilePrice + laptopPrice;
+  return totalExpense;
 }
 var result = budgetCalculator(2, 3, 5);
 console.log(result);
